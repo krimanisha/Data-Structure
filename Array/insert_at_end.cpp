@@ -6,7 +6,7 @@ void insert_at_end(int arr[], int n, int cap, int x){
         return;
     }
     arr[n]=x;
-    for(int i=0; i<cap; i++){
+    for(int i=0; i<cap;i++){
         cout<<arr[i]<<" ";
     }
 }
