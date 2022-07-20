@@ -3,18 +3,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 int indexLargest(int arr[], int n){
-    for(int i=0; i<n; i++){
-        bool flag=true;
-        for(int j=0; j<n; j++){
-            if(arr[j]>arr[i]){
-                flag=false;
-                break;
-            }
+    int max=0;
+    for(int i=1; i<n; i++){
+        if(arr[i]>max){
+            max=i;
         }
-        if(flag==true)
-            return i;
     }
-    return -1;
+    return max;
 }
 int main(){
     int n;
