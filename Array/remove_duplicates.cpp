@@ -11,8 +11,10 @@ void removeDuplicates(int arr[], int n){
         }
     }
     for(int i=0; i<res.size(); i++){
-        cout<<res[i]<<" ";
+        cout<<res[i]<<" ";  
     }
+    cout<<endl;
+    cout<<res.size()<<endl;
 }
 int main(){
     int n;
@@ -22,4 +24,17 @@ int main(){
         cin>>arr[i];
     }
     removeDuplicates(arr, n);
+}
+
+//Efficient Approach
+//only function written
+int remDuplicates(int arr[], int n){
+    int res=1;
+    for(int i=1; i<n; i++){
+        if(arr[i]!=arr[res-1]){
+            arr[res]=arr[i];
+            res++;
+        }
+    }
+    return res;
 }

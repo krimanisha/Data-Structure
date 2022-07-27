@@ -2,8 +2,7 @@
 // C++ program to remove a given element from an array
 #include<bits/stdc++.h>
 using namespace std;
-int deleteElement(int arr[], int n, int x)
-{
+int deleteElement(int arr[], int n, int x){
     int i;
     for (i=0; i<n; i++)
         if (arr[i] == x)
@@ -12,11 +11,10 @@ int deleteElement(int arr[], int n, int x)
     n--;
     for (int j=i; j<n; j++)
         arr[j] = arr[j+1];
+    }
+    return n;
 }
-return n;
-}
-int main()
-{
+int main(){
     int n;
     cin>>n;
     int arr[n];
