@@ -1,4 +1,5 @@
 //Given an Array of integers, return an Array where every element at an even-indexed position is squared.
+
 #include<bits/stdc++.h>
 using namespace std;
 void evenIndexedSqEle(int arr[], int n){
@@ -10,7 +11,6 @@ void evenIndexedSqEle(int arr[], int n){
     for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";
     }
-
 }
 int main(){
     int n;
