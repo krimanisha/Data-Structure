@@ -27,5 +27,5 @@ int main(){
     }
     int x;
     cin>>x;
-    binarySearchEle(arr,n,x);
+    cout<<binarySearchEle(arr,n,x);
 }
