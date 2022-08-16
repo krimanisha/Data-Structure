@@ -1,5 +1,6 @@
 //Binary Search
 
+//Iterative Method
 #include<bits/stdc++.h>
 using namespace std;
 int binarySearchEle(int arr[], int n, int x){
