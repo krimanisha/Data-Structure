@@ -17,3 +17,20 @@ ii) Ignore leading constant
 
 How do we know which terms are lower order?
 c < loglogn < logn < n^1/3 < n^1/2 < n^1/2 < n < n^2 < n^3 <n^4 < 2^n < n^n
+
+Asympotic Notation:- 
+
+There are total 3 cases:-
+1) Best Case    2) Average Case     3) Worst Case
+--> Average Case is impratical to guess.
+--> Worst Cases are only considered when there are more than 1 case in algorithm.
+
+Mathematical Notation:-
+1) Big O - Represents exact or upper bound.
+2) Thetha - Represents exact bound.
+3) Omega - Represents exact or lower bound.
+
+
+
+
+
